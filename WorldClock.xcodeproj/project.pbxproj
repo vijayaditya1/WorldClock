@@ -7,70 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55D748B6308A03D800C4FA3B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D748B5308A03D800C4FA3B /* WidgetKit.framework */; };
-		55D748B8308A03D800C4FA3B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D748B7308A03D800C4FA3B /* SwiftUI.framework */; };
-		55D748C5308A03D900C4FA3B /* widgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 55D748B3308A03D800C4FA3B /* widgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		551B1969308BC73F00D59D98 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 551B1968308BC73F00D59D98 /* WidgetKit.framework */; };
+		551B196B308BC73F00D59D98 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 551B196A308BC73F00D59D98 /* SwiftUI.framework */; };
+		551B1978308BC74000D59D98 /* widgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 551B1966308BC73F00D59D98 /* widgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		55D748C3308A03D900C4FA3B /* PBXContainerItemProxy */ = {
+		551B1976308BC74000D59D98 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 55D74895308A037F00C4FA3B /* Project object */;
+			containerPortal = 551B194C308BC72B00D59D98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 55D748B2308A03D800C4FA3B;
+			remoteGlobalIDString = 551B1965308BC73F00D59D98;
 			remoteInfo = widgetExtension;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		55D748CA308A03D900C4FA3B /* Embed Foundation Extensions */ = {
+		551B197D308BC74000D59D98 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			dstPath = "";
 			dstSubfolder = PlugIns;
 			files = (
-				55D748C5308A03D900C4FA3B /* widgetExtension.appex in Embed Foundation Extensions */,
+				551B1978308BC74000D59D98 /* widgetExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		55D7489D308A037F00C4FA3B /* WorldClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		55D748B3308A03D800C4FA3B /* widgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		55D748B5308A03D800C4FA3B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
-		55D748B7308A03D800C4FA3B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		551B1954308BC72B00D59D98 /* WorldClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		551B1966308BC73F00D59D98 /* widgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		551B1968308BC73F00D59D98 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		551B196A308BC73F00D59D98 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		55D748A9308A038000C4FA3B /* Exceptions for "WorldClock" folder in "WorldClock" target */ = {
+		551B1979308BC74000D59D98 /* Exceptions for "widget" folder in "widgetExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 55D7489C308A037F00C4FA3B /* WorldClock */;
-		};
-		55D748C9308A03D900C4FA3B /* Exceptions for "widget" folder in "widgetExtension" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 55D748B2308A03D800C4FA3B /* widgetExtension */;
+			target = 551B1965308BC73F00D59D98 /* widgetExtension */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		55D7489F308A037F00C4FA3B /* WorldClock */ = {
+		551B1956308BC72B00D59D98 /* WorldClock */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				55D748A9308A038000C4FA3B /* Exceptions for "WorldClock" folder in "WorldClock" target */,
-			);
 			path = WorldClock;
 			sourceTree = "<group>";
 		};
-		55D748B9308A03D800C4FA3B /* widget */ = {
+		551B196C308BC73F00D59D98 /* widget */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				55D748C9308A03D900C4FA3B /* Exceptions for "widget" folder in "widgetExtension" target */,
+				551B1979308BC74000D59D98 /* Exceptions for "widget" folder in "widgetExtension" target */,
 			);
 			path = widget;
 			sourceTree = "<group>";
@@ -78,45 +68,45 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		55D7489A308A037F00C4FA3B /* Frameworks */ = {
+		551B1951308BC72B00D59D98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
 			);
 		};
-		55D748B0308A03D800C4FA3B /* Frameworks */ = {
+		551B1963308BC73F00D59D98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
-				55D748B8308A03D800C4FA3B /* SwiftUI.framework in Frameworks */,
-				55D748B6308A03D800C4FA3B /* WidgetKit.framework in Frameworks */,
+				551B196B308BC73F00D59D98 /* SwiftUI.framework in Frameworks */,
+				551B1969308BC73F00D59D98 /* WidgetKit.framework in Frameworks */,
 			);
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		55D74894308A037F00C4FA3B = {
+		551B194B308BC72B00D59D98 = {
 			isa = PBXGroup;
 			children = (
-				55D7489F308A037F00C4FA3B /* WorldClock */,
-				55D748B9308A03D800C4FA3B /* widget */,
-				55D748B4308A03D800C4FA3B /* Frameworks */,
-				55D7489E308A037F00C4FA3B /* Products */,
+				551B1956308BC72B00D59D98 /* WorldClock */,
+				551B196C308BC73F00D59D98 /* widget */,
+				551B1967308BC73F00D59D98 /* Frameworks */,
+				551B1955308BC72B00D59D98 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		55D7489E308A037F00C4FA3B /* Products */ = {
+		551B1955308BC72B00D59D98 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55D7489D308A037F00C4FA3B /* WorldClock.app */,
-				55D748B3308A03D800C4FA3B /* widgetExtension.appex */,
+				551B1954308BC72B00D59D98 /* WorldClock.app */,
+				551B1966308BC73F00D59D98 /* widgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		55D748B4308A03D800C4FA3B /* Frameworks */ = {
+		551B1967308BC73F00D59D98 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				55D748B5308A03D800C4FA3B /* WidgetKit.framework */,
-				55D748B7308A03D800C4FA3B /* SwiftUI.framework */,
+				551B1968308BC73F00D59D98 /* WidgetKit.framework */,
+				551B196A308BC73F00D59D98 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -124,91 +114,91 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		55D7489C308A037F00C4FA3B /* WorldClock */ = {
+		551B1953308BC72B00D59D98 /* WorldClock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55D748AA308A038000C4FA3B /* Build configuration list for PBXNativeTarget "WorldClock" */;
+			buildConfigurationList = 551B195F308BC72B00D59D98 /* Build configuration list for PBXNativeTarget "WorldClock" */;
 			buildPhases = (
-				55D74899308A037F00C4FA3B /* Sources */,
-				55D7489A308A037F00C4FA3B /* Frameworks */,
-				55D7489B308A037F00C4FA3B /* Resources */,
-				55D748CA308A03D900C4FA3B /* Embed Foundation Extensions */,
+				551B1950308BC72B00D59D98 /* Sources */,
+				551B1951308BC72B00D59D98 /* Frameworks */,
+				551B1952308BC72B00D59D98 /* Resources */,
+				551B197D308BC74000D59D98 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				55D748C4308A03D900C4FA3B /* PBXTargetDependency */,
+				551B1977308BC74000D59D98 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				55D7489F308A037F00C4FA3B /* WorldClock */,
+				551B1956308BC72B00D59D98 /* WorldClock */,
 			);
 			name = WorldClock;
 			productName = WorldClock;
-			productReference = 55D7489D308A037F00C4FA3B /* WorldClock.app */;
+			productReference = 551B1954308BC72B00D59D98 /* WorldClock.app */;
 			productType = "com.apple.product-type.application";
 		};
-		55D748B2308A03D800C4FA3B /* widgetExtension */ = {
+		551B1965308BC73F00D59D98 /* widgetExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55D748C6308A03D900C4FA3B /* Build configuration list for PBXNativeTarget "widgetExtension" */;
+			buildConfigurationList = 551B197A308BC74000D59D98 /* Build configuration list for PBXNativeTarget "widgetExtension" */;
 			buildPhases = (
-				55D748AF308A03D800C4FA3B /* Sources */,
-				55D748B0308A03D800C4FA3B /* Frameworks */,
-				55D748B1308A03D800C4FA3B /* Resources */,
+				551B1962308BC73F00D59D98 /* Sources */,
+				551B1963308BC73F00D59D98 /* Frameworks */,
+				551B1964308BC73F00D59D98 /* Resources */,
 			);
 			buildRules = (
 			);
 			fileSystemSynchronizedGroups = (
-				55D748B9308A03D800C4FA3B /* widget */,
+				551B196C308BC73F00D59D98 /* widget */,
 			);
 			name = widgetExtension;
 			productName = widgetExtension;
-			productReference = 55D748B3308A03D800C4FA3B /* widgetExtension.appex */;
+			productReference = 551B1966308BC73F00D59D98 /* widgetExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		55D74895308A037F00C4FA3B /* Project object */ = {
+		551B194C308BC72B00D59D98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2700;
 				LastUpgradeCheck = 2700;
 				TargetAttributes = {
-					55D7489C308A037F00C4FA3B = {
+					551B1953308BC72B00D59D98 = {
 						CreatedOnToolsVersion = 27.0;
 					};
-					55D748B2308A03D800C4FA3B = {
+					551B1965308BC73F00D59D98 = {
 						CreatedOnToolsVersion = 27.0;
 					};
 				};
 			};
-			buildConfigurationList = 55D74898308A037F00C4FA3B /* Build configuration list for PBXProject "WorldClock" */;
+			buildConfigurationList = 551B194F308BC72B00D59D98 /* Build configuration list for PBXProject "WorldClock" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 55D74894308A037F00C4FA3B;
+			mainGroup = 551B194B308BC72B00D59D98;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 55D7489E308A037F00C4FA3B /* Products */;
+			productRefGroup = 551B1955308BC72B00D59D98 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				55D7489C308A037F00C4FA3B /* WorldClock */,
-				55D748B2308A03D800C4FA3B /* widgetExtension */,
+				551B1953308BC72B00D59D98 /* WorldClock */,
+				551B1965308BC73F00D59D98 /* widgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		55D7489B308A037F00C4FA3B /* Resources */ = {
+		551B1952308BC72B00D59D98 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
 			);
 		};
-		55D748B1308A03D800C4FA3B /* Resources */ = {
+		551B1964308BC73F00D59D98 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
 			);
@@ -216,12 +206,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		55D74899308A037F00C4FA3B /* Sources */ = {
+		551B1950308BC72B00D59D98 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
 			);
 		};
-		55D748AF308A03D800C4FA3B /* Sources */ = {
+		551B1962308BC73F00D59D98 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
 			);
@@ -229,81 +219,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		55D748C4308A03D900C4FA3B /* PBXTargetDependency */ = {
+		551B1977308BC74000D59D98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 55D748B2308A03D800C4FA3B /* widgetExtension */;
-			targetProxy = 55D748C3308A03D900C4FA3B /* PBXContainerItemProxy */;
+			target = 551B1965308BC73F00D59D98 /* widgetExtension */;
+			targetProxy = 551B1976308BC74000D59D98 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		55D748AB308A038000C4FA3B /* Debug configuration for PBXNativeTarget "WorldClock" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L993WADSHP;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readwrite;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WorldClock/Info.plist;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.apexware.WorldClock;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				REGISTER_APP_GROUPS = YES;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 6.0;
-			};
-			name = Debug;
-		};
-		55D748AC308A038000C4FA3B /* Release configuration for PBXNativeTarget "WorldClock" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L993WADSHP;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readwrite;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WorldClock/Info.plist;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.apexware.WorldClock;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				REGISTER_APP_GROUPS = YES;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 6.0;
-			};
-			name = Release;
-		};
-		55D748AD308A038000C4FA3B /* Debug configuration for PBXProject "WorldClock" */ = {
+		551B195D308BC72B00D59D98 /* Debug configuration for PBXProject "WorldClock" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -367,7 +291,7 @@
 			};
 			name = Debug;
 		};
-		55D748AE308A038000C4FA3B /* Release configuration for PBXProject "WorldClock" */ = {
+		551B195E308BC72B00D59D98 /* Release configuration for PBXProject "WorldClock" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -423,7 +347,71 @@
 			};
 			name = Release;
 		};
-		55D748C7308A03D900C4FA3B /* Debug configuration for PBXNativeTarget "widgetExtension" */ = {
+		551B1960308BC72B00D59D98 /* Debug configuration for PBXNativeTarget "WorldClock" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L993WADSHP;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apexware.WorldClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		551B1961308BC72B00D59D98 /* Release configuration for PBXNativeTarget "WorldClock" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L993WADSHP;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apexware.WorldClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		551B197B308BC74000D59D98 /* Debug configuration for PBXNativeTarget "widgetExtension" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,7 +432,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 27.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.apexware.WorldClock.widget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apexware.WorldClock.widget1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -455,7 +443,7 @@
 			};
 			name = Debug;
 		};
-		55D748C8308A03D900C4FA3B /* Release configuration for PBXNativeTarget "widgetExtension" */ = {
+		551B197C308BC74000D59D98 /* Release configuration for PBXNativeTarget "widgetExtension" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -476,7 +464,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 27.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.apexware.WorldClock.widget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apexware.WorldClock.widget1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -490,32 +478,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		55D74898308A037F00C4FA3B /* Build configuration list for PBXProject "WorldClock" */ = {
+		551B194F308BC72B00D59D98 /* Build configuration list for PBXProject "WorldClock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				55D748AD308A038000C4FA3B /* Debug configuration for PBXProject "WorldClock" */,
-				55D748AE308A038000C4FA3B /* Release configuration for PBXProject "WorldClock" */,
+				551B195D308BC72B00D59D98 /* Debug configuration for PBXProject "WorldClock" */,
+				551B195E308BC72B00D59D98 /* Release configuration for PBXProject "WorldClock" */,
 			);
 			defaultConfigurationName = Release;
 		};
-		55D748AA308A038000C4FA3B /* Build configuration list for PBXNativeTarget "WorldClock" */ = {
+		551B195F308BC72B00D59D98 /* Build configuration list for PBXNativeTarget "WorldClock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				55D748AB308A038000C4FA3B /* Debug configuration for PBXNativeTarget "WorldClock" */,
-				55D748AC308A038000C4FA3B /* Release configuration for PBXNativeTarget "WorldClock" */,
+				551B1960308BC72B00D59D98 /* Debug configuration for PBXNativeTarget "WorldClock" */,
+				551B1961308BC72B00D59D98 /* Release configuration for PBXNativeTarget "WorldClock" */,
 			);
 			defaultConfigurationName = Release;
 		};
-		55D748C6308A03D900C4FA3B /* Build configuration list for PBXNativeTarget "widgetExtension" */ = {
+		551B197A308BC74000D59D98 /* Build configuration list for PBXNativeTarget "widgetExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				55D748C7308A03D900C4FA3B /* Debug configuration for PBXNativeTarget "widgetExtension" */,
-				55D748C8308A03D900C4FA3B /* Release configuration for PBXNativeTarget "widgetExtension" */,
+				551B197B308BC74000D59D98 /* Debug configuration for PBXNativeTarget "widgetExtension" */,
+				551B197C308BC74000D59D98 /* Release configuration for PBXNativeTarget "widgetExtension" */,
 			);
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 55D74895308A037F00C4FA3B /* Project object */;
+	rootObject = 551B194C308BC72B00D59D98 /* Project object */;
 	validationLevel = 1;
 }
